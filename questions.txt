@@ -1,0 +1,9 @@
+=> configMap, if need any configuration outside docker image
+=> annotations in Services are like labels, key/value pairs
+=> strategy of deployment : rolling update
+=> imagePullPolicy: Always, latest
+=> resources: requests: cpu: 100m - 1 CPU & memory: 128Mi 	
+
+=> Network policy: Calico and Azure 
+=> Service, node pools (system & user)
+=> Ingress, LoadBalancer, Service - what is the difference
